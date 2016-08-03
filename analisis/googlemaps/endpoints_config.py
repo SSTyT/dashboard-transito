@@ -1,6 +1,6 @@
 from analisis import config
 
-base_url = config.api['host'] + '/api/'
+base_url = config.api['host'] + '/api'
 account = {
     "get_all": {
         "method": "GET",
